@@ -37,7 +37,7 @@ class FClient
         
         System.out.print("Enter the name of File to Receive : ");
         String fileName = br.readLine();
-        System.out.println("\n")
+        System.out.println("\n");
         File file = new File("my"+fileName);
 		// receiver constructor
 		FClient client = new FClient(ip, serverPort);
